@@ -10,10 +10,9 @@ def line_chart(X, y, theme='base', title='Titulo del gráfico', eje_x = 'Variabl
     if theme == 'dark':
         fig.patch.set_facecolor('#21252b') 
         ax.set_facecolor('#282c34') 
-        #plt.annotate(color='white')
 
-        
         font_color='white'
+
     else:
         font_color='black'
 

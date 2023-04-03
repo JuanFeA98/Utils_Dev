@@ -30,9 +30,6 @@ sort_df = sort_df[['Name', 'Last Price', 'Change', 'pct_change']]
 top_df = sort_df.head(5).reset_index(drop=True)
 bottom_df = sort_df.tail(5).reset_index(drop=True)
 
-print(top_df)
-print(bottom_df)
-
 # Nos quedamos con los nombres
 top_name = top_df['Name'][0].replace('/', '')
 botton_name = bottom_df['Name'][0].replace('/', '')

@@ -3,6 +3,7 @@
 *.xlsx
 *.png
 *.txt
+*.pptx
 
 ### Python ###
 # Byte-compiled / optimized / DLL files

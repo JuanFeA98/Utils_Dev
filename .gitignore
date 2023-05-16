@@ -4,6 +4,7 @@
 *.png
 *.txt
 *.pptx
+*.json
 
 ### Python ###
 # Byte-compiled / optimized / DLL files
